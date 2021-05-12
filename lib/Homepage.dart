@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
                           'Solar System',
                           style: TextStyle(
                               fontFamily: 'Avenir',
-                              fontSize: 24,
+                              fontSize: 25,
                               color: const Color(0x7cdbf1ff),
                               fontWeight: FontWeight.w500),
                           textAlign: TextAlign.left,
@@ -123,7 +123,7 @@ class _HomeState extends State<Home> {
                                         'Solar System',
                                         style: TextStyle(
                                           fontFamily: 'Avenir',
-                                          fontSize: 23,
+                                          fontSize: 24,
                                           color: primaryTextColor,
                                           fontWeight: FontWeight.w500,
                                         ),
@@ -169,8 +169,8 @@ class _HomeState extends State<Home> {
         // color: navigationColor,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(120),
-            topRight: Radius.circular(120),
+            topLeft: Radius.circular(118),
+            topRight: Radius.circular(118),
           ),
           color: navigationColor,
         ),
@@ -193,10 +193,7 @@ class _HomeState extends State<Home> {
                     onPressed: () {},
                     icon: Image.asset('Assets/profile_icon.png')),
 
-                //  IconButton(
-                // onPressed: (){},
-                //  icon: Image.asset('Assets/menu_icon.png')
-                //  ),
+                
               ],
             ),
           ),
