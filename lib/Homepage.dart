@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_card_swipper/flutter_card_swiper.dart';
-// import 'package:flutter_swiper/flutter_swiper.dart';
+
 import 'package:planets_app/Constants.dart';
 import 'package:planets_app/Details_page.dart';
 import 'package:planets_app/data.dart';
